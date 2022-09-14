@@ -12,10 +12,7 @@ This is the automation scripts for a demo site which is written in cypress
 
 ## Steps to setup Project on your machine
 
-- Clone the repo to you local machine
-```bash
-  git clone https://binayad@bitbucket.org/binayad/guru99democypresstest.git
-```
+- Clone the repo to you local machine or download zip file
 - Make sure you have installed node in your system.
 - After you've cloned the project, make sure you have .env file.
 - If you don't have .env file you can copy ".env.example" file and create one with ".env" name. Or, just type this in your terminal.
