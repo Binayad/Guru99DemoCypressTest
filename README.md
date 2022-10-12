@@ -117,7 +117,7 @@ Website URL: https://demo.guru99.com/insurance/v1/index.php
 | Click Login Button |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
 | Click Edit Profile |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
 | Input all the necessary thing from faker.js plugin for editing the profile |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
-| Click Update User Button | ![#FF0000](https://via.placeholder.com/10/FF0000.jpg) Fail| Should be click and show shome message like User is Updated| No Response on click |
+| Click Update User Button | ![#FF0000](https://via.placeholder.com/10/FF0000.jpg) Fail| Should be click and show some message like User is Updated| No Response on click |
 
 ### Profile Tab Visit and checking the Profile Value
 |Test Steps                      | Test result     | Expected Result                                                   | Actual Result |
