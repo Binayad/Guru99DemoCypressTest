@@ -58,75 +58,75 @@ This is the automation scripts for a demo site which is written in cypress
 | File Name         | Test Cases                      | Test result                                                 | 
 | ----------------- | --------------------------------|------------------------------------------------------------ |
 | Auth.js      | Login Success with Valid Login Details |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass|
-||Log Out Success |![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
-||Log in with Valid Email Address Only |![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
-||Log in with Valid Password Only |![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail
-||Log in with Invalid Email Address and Password |![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
-||Log in with Invalid Email Address and valid Password |![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
-||Log in with valid Email Address and Invalid Password |![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
-||Log in with Empty Email Address and Password field |![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail
-||Trying to visit dashboard page without login |![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail
+||Log Out Success |![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass
+||Log in with Valid Email Address Only |![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass
+||Log in with Valid Password Only |![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail
+||Log in with Invalid Email Address and Password |![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass
+||Log in with Invalid Email Address and valid Password |![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass
+||Log in with valid Email Address and Invalid Password |![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass
+||Log in with Empty Email Address and Password field |![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail
+||Trying to visit dashboard page without login |![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail
 
 
 
 | File Name         | Test Cases                      | Test result                                                 | 
 | ----------------- | --------------------------------|------------------------------------------------------------ |
-|Profile.js      | Profile edit and update with the random value | ![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail|
-||Profile Tab Visit and checking the Profile page content|![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
-||Profile Tab Visit and checking the Profile Value |![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail
+|Profile.js      | Profile edit and update with the random value | ![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail|
+||Profile Tab Visit and checking the Profile page content|![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass
+||Profile Tab Visit and checking the Profile Value |![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail
 
 | File Name         | Test Cases                      | Test result                                                 | 
 | ----------------- | --------------------------------|------------------------------------------------------------ |
-| Quotation.js     | Request Quotation visit, Verify the calculation, Save the Qutotaion and Store the Quotation Key |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass|
-||Retrieve Quotation from stored key and verify the data with Request Quotation |![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
+| Quotation.js     | Request Quotation visit, Verify the calculation, Save the Qutotaion and Store the Quotation Key |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass|
+||Retrieve Quotation from stored key and verify the data with Request Quotation |![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass
 
 
 ## Test Steps for Failed Results
 ### Log in with Valid Password Only
 |Test Steps                      | Test result     | Expected Result                                                   | Actual Result |
 | ----------------- | --------------------------------|------------------------------------------------------------ | -----------------|
-| Visit Login Page link |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check URL and site Title |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check email input field is visible and Clear |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check email input field is visible, clear and input correct password |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Click the Login Button |![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail | Should not able to login || Redirected to Dashboard |
+| Visit Login Page link |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check URL and site Title |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check email input field is visible and Clear |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check email input field is visible, clear and input correct password |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Click the Login Button |![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail | Should not able to login || Redirected to Dashboard |
 
 ### Log in with Empty Email Address and Password
 |Test Steps                      | Test result     | Expected Result                                                   | Actual Result |
 | ----------------- | --------------------------------|------------------------------------------------------------ | -----------------|
-| Visit Login Page link |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check URL and site Title |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check email input field is visible and clear |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check email input field is visible and clear |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Click the Login Button |![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail | Should not able to login || Redirected to Dashboard |
+| Visit Login Page link |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check URL and site Title |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check email input field is visible and clear |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check email input field is visible and clear |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Click the Login Button |![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail | Should not able to login || Redirected to Dashboard |
 
 
 ### Trying to visit dashboard page without login via URL
 |Test Steps                      | Test result     | Expected Result                                                   | Actual Result |
 | ----------------- | --------------------------------|------------------------------------------------------------ | -----------------|
-| Visit Login Page link |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check URL |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Visit Direct link via URL and check Email and Password input field | ![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail| Redirect to login page and email and password input field is visible| Able to Access Dashboard Page with login credentials|
+| Visit Login Page link |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check URL |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Visit Direct link via URL and check Email and Password input field | ![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail| Redirect to login page and email and password input field is visible| Able to Access Dashboard Page with login credentials|
 
 ### Profile edit and update with the random value
 |Test Steps                      | Test result     | Expected Result                                                   | Actual Result |
 | ----------------- | --------------------------------|------------------------------------------------------------ | -----------------|
-| Visit Login Page link |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Enter Email and Password |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Click Login Button |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Click Edit Profile |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Input all the necessary thing from faker.js plugin for editing the profile |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Click Update User Button | ![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail| Should be click and show shome message like User is Updated| No Response on click |
+| Visit Login Page link |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Enter Email and Password |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Click Login Button |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Click Edit Profile |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Input all the necessary thing from faker.js plugin for editing the profile |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Click Update User Button | ![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail| Should be click and show shome message like User is Updated| No Response on click |
 
 ### Profile Tab Visit and checking the Profile Value
 |Test Steps                      | Test result     | Expected Result                                                   | Actual Result |
 | ----------------- | --------------------------------|------------------------------------------------------------ | -----------------|
-| Check Profile Tab is Visible  |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Click Profile Tab |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check Profile Tab is visible, have text Profile and tab is active after click |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check Title |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check Firstname text to be visible |    ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass||||
-| Check Firstname value| ![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail| Should have the Value which is insert during previous test cases (Profile edit and Update) | Value is not shown |
+| Check Profile Tab is Visible  |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Click Profile Tab |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check Profile Tab is visible, have text Profile and tab is active after click |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check Title |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check Firstname text to be visible |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
+| Check Firstname value| ![#FF0000](https://via.placeholder.com/10/FF0000?text=+.jpg) Fail| Should have the Value which is insert during previous test cases (Profile edit and Update) | Value is not shown |
 |Test Exist|
 
 
