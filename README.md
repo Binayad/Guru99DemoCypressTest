@@ -57,7 +57,7 @@ This is the automation scripts for a demo site which is written in cypress
 
 | File Name         | Test Cases                      | Test result                                                 | 
 | ----------------- | --------------------------------|------------------------------------------------------------ |
-| Auth.js      | Login Success with Valid Login Details |   ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass|
+| Auth.js      | Login Success with Valid Login Details |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass|
 ||Log Out Success |![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
 ||Log in with Valid Email Address Only |![#00b48a](https://via.placeholder.com/10/00b48a?text=+) Pass
 ||Log in with Valid Password Only |![#FF0000](https://via.placeholder.com/10/FF0000?text=+) Fail
