@@ -2,6 +2,7 @@
 #Guru99 Demo site
 
 This is the automation scripts for a demo site which is written in cypress
+Website URL: https://demo.guru99.com/insurance/v1/index.php
 
 
 ![Logo](https://raw.githubusercontent.com/cypress-io/cypress/develop/assets/cypress-logo-light.png)
