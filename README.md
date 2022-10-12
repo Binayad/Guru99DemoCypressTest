@@ -89,7 +89,7 @@ This is the automation scripts for a demo site which is written in cypress
 | Check URL and site Title |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
 | Check email input field is visible and Clear |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
 | Check email input field is visible, clear and input correct password |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
-| Click the Login Button |![#FF0000](https://via.placeholder.com/10/FF0000.jpg) Fail | Should not able to login || Redirected to Dashboard |
+| Click the Login Button |![#FF0000](https://via.placeholder.com/10/FF0000.jpg) Fail | Should not able to login | Redirected to Dashboard |
 
 ### Log in with Empty Email Address and Password
 |Test Steps                      | Test result     | Expected Result                                                   | Actual Result |
@@ -98,7 +98,7 @@ This is the automation scripts for a demo site which is written in cypress
 | Check URL and site Title |    ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
 | Check email input field is visible and clear |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
 | Check email input field is visible and clear |   ![#00b48a](https://via.placeholder.com/10/00b48a.jpg) Pass||||
-| Click the Login Button |![#FF0000](https://via.placeholder.com/10/FF0000.jpg) Fail | Should not able to login || Redirected to Dashboard |
+| Click the Login Button |![#FF0000](https://via.placeholder.com/10/FF0000.jpg) Fail | Should not able to login | Redirected to Dashboard |
 
 
 ### Trying to visit dashboard page without login via URL
